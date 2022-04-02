@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-select {
+    @apply bg-gray-50 text-gray-500 text-sm focus:ring-blue-500  block w-full p-2.5;
+  }
+}
